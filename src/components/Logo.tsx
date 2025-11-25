@@ -14,11 +14,12 @@ export default function Logo({ className = '', showText = false, variant = 'defa
       {/* Logo Image */}
       <Image 
         src="/assets/prynex-logo.png"
-        alt="PRYNEX Logo"
-        width={180}
-        height={60}
+        alt="PRYNEX - Algo Quant Research"
+        width={240}
+        height={80}
         priority
-        className="h-auto w-auto max-h-10 object-contain drop-shadow-[0_0_15px_rgba(0,255,200,0.3)]"
+        unoptimized
+        className="h-10 w-auto object-contain drop-shadow-[0_0_15px_rgba(0,255,200,0.3)]"
       />
     </div>
   );
