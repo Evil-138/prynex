@@ -18,10 +18,10 @@ export default function Navigation() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 glass-strong border-b border-accent-primary/20">
-      <nav className="container-custom flex items-center justify-between p-4 lg:px-8" aria-label="Global">
+      <nav className="container-custom flex items-center justify-between py-4 px-4 lg:px-8 min-h-[88px]" aria-label="Global">
         {/* Logo */}
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5 transition-transform hover:scale-105 duration-300">
             <Logo variant="gradient" />
           </Link>
         </div>
